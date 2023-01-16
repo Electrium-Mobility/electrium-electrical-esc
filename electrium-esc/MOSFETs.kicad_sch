@@ -1,0 +1,17 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid f42d3cdf-dc2d-4fad-a504-0c3124f46f42)
+
+  (paper "A4")
+
+  (title_block
+    (title "BLDC Electronic Speed Controller 1.0")
+    (date "2023-01-16")
+    (rev "ESC 1.0")
+    (company "Electrium Mobility")
+  )
+
+  (lib_symbols
+  )
+
+)

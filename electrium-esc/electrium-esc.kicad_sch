@@ -1,0 +1,72 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid d277d506-2f4d-497b-a498-1ff059e212d2)
+
+  (paper "A4")
+
+  (title_block
+    (title "BLDC Electronic Speed Controller 1.0")
+    (date "2023-01-16")
+    (rev "ESC 1.0")
+    (company "Electrium Mobility")
+    (comment 1 "Top Level")
+  )
+
+  (lib_symbols
+  )
+
+
+  (label "BLDC Electronic Speed Controller" (at 19.05 26.67 0)
+    (effects (font (size 5 5)) (justify left bottom))
+    (uuid f9f08497-d18d-4605-90e7-2727781121bc)
+  )
+
+  (sheet (at 165.1 43.18) (size 27.94 46.99) (fields_autoplaced)
+    (stroke (width 0.3) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 4dcd2554-0c0c-4fca-b220-d2fb156d9cf9)
+    (property "Sheet name" "Motor Driver (DRV8301)" (id 0) (at 165.1 42.4684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "Motor-Driver.kicad_sch" (id 1) (at 165.1 90.7546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 87.63 38.1) (size 67.31 132.08) (fields_autoplaced)
+    (stroke (width 0.3) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 95515899-f309-4706-b478-ef0c1d74de3d)
+    (property "Sheet name" "MCU (STM32F407ZGT6)" (id 0) (at 87.63 37.3884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "MCU.kicad_sch" (id 1) (at 87.63 170.7646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 199.39 43.18) (size 25.4 33.02) (fields_autoplaced)
+    (stroke (width 0.3) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 9cfb263a-ea56-4cbe-86e2-b1fdf4c95ad6)
+    (property "Sheet name" "Power MOSFETs" (id 0) (at 199.39 42.4684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "MOSFETs.kicad_sch" (id 1) (at 199.39 76.7846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/95515899-f309-4706-b478-ef0c1d74de3d" (page "2"))
+    (path "/4dcd2554-0c0c-4fca-b220-d2fb156d9cf9" (page "3"))
+    (path "/9cfb263a-ea56-4cbe-86e2-b1fdf4c95ad6" (page "4"))
+  )
+
+  (symbol_instances
+    (path "/95515899-f309-4706-b478-ef0c1d74de3d/817b9562-8e7c-44fd-a0ab-5d22e23884af"
+      (reference "U?") (unit 1) (value "STM32F407ZGT6") (footprint "Package_QFP:LQFP-144_20x20mm_P0.5mm")
+    )
+  )
+)
