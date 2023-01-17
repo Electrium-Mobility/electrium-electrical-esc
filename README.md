@@ -1,12 +1,10 @@
 # Electrium ESC V1.0
 
----
 
 This is the initial version of the Electronic Speed Controller. Heavy reference was from the VESC 4.11 model from here: https://github.com/vedderb/bldc-hardware.
 
 ## Sheets
 
----
 
 #### MCU
 
