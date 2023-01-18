@@ -16,40 +16,19 @@
   )
 
 
-  (text "PWR_Comm\n" (at 31.75 128.27 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid b86bbbb7-e2df-4ba9-8994-2b671ac95b1d)
-  )
-  (text "USB Shield\n" (at 30.48 74.93 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid bee56a74-e968-4b6e-8cc6-260416507f9a)
-  )
-
   (label "BLDC Electronic Speed Controller" (at 19.05 26.67 0)
     (effects (font (size 5 5)) (justify left bottom))
     (uuid f9f08497-d18d-4605-90e7-2727781121bc)
   )
 
-  (sheet (at 167.64 39.37) (size 27.94 46.99) (fields_autoplaced)
+  (sheet (at 165.1 43.18) (size 27.94 46.99) (fields_autoplaced)
     (stroke (width 0.3) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 4dcd2554-0c0c-4fca-b220-d2fb156d9cf9)
-    (property "Sheet name" "Motor Driver (DRV8301)" (id 0) (at 167.64 38.6584 0)
+    (property "Sheet name" "Motor Driver (DRV8301)" (id 0) (at 165.1 42.4684 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "Motor-Driver.kicad_sch" (id 1) (at 167.64 86.9446 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-  )
-
-  (sheet (at 29.21 109.22) (size 25.4 10.16) (fields_autoplaced)
-    (stroke (width 0.3) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
-    (uuid 8e3fe61b-a8c8-4119-95ec-c642aa46593a)
-    (property "Sheet name" "Bluetooth" (id 0) (at 29.21 108.5084 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheet file" "Bluetooth.kicad_sch" (id 1) (at 29.21 119.9646 0)
+    (property "Sheet file" "Motor-Driver.kicad_sch" (id 1) (at 165.1 90.7546 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -66,26 +45,14 @@
     )
   )
 
-  (sheet (at 201.93 39.37) (size 25.4 33.02) (fields_autoplaced)
+  (sheet (at 199.39 43.18) (size 25.4 33.02) (fields_autoplaced)
     (stroke (width 0.3) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 9cfb263a-ea56-4cbe-86e2-b1fdf4c95ad6)
-    (property "Sheet name" "Power MOSFETs" (id 0) (at 201.93 38.6584 0)
+    (property "Sheet name" "Power MOSFETs" (id 0) (at 199.39 42.4684 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "MOSFETs.kicad_sch" (id 1) (at 201.93 72.9746 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-  )
-
-  (sheet (at 29.21 87.63) (size 25.4 11.43) (fields_autoplaced)
-    (stroke (width 0.3) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
-    (uuid f169605c-998e-4bf3-977e-b281c665fab8)
-    (property "Sheet name" "CAN Bus" (id 0) (at 29.21 86.9184 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheet file" "CAN-Bus.kicad_sch" (id 1) (at 29.21 99.6446 0)
+    (property "Sheet file" "MOSFETs.kicad_sch" (id 1) (at 199.39 76.7846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -95,8 +62,6 @@
     (path "/95515899-f309-4706-b478-ef0c1d74de3d" (page "2"))
     (path "/4dcd2554-0c0c-4fca-b220-d2fb156d9cf9" (page "3"))
     (path "/9cfb263a-ea56-4cbe-86e2-b1fdf4c95ad6" (page "4"))
-    (path "/f169605c-998e-4bf3-977e-b281c665fab8" (page "5"))
-    (path "/8e3fe61b-a8c8-4119-95ec-c642aa46593a" (page "6"))
   )
 
   (symbol_instances
@@ -122,9 +87,6 @@
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/95515899-f309-4706-b478-ef0c1d74de3d/5edcc7cb-df6a-47ca-9704-c1c2f8fc99a3"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/95515899-f309-4706-b478-ef0c1d74de3d/67c7ca55-4024-4176-80f1-198aced55fbe"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/95515899-f309-4706-b478-ef0c1d74de3d/ad753f0f-9fea-408d-b2c2-80c26b3f12e4"
@@ -190,17 +152,11 @@
     (path "/95515899-f309-4706-b478-ef0c1d74de3d/d6d89a32-b335-48e8-aafb-d74409aee1f1"
       (reference "C?") (unit 1) (value "100n") (footprint "")
     )
-    (path "/95515899-f309-4706-b478-ef0c1d74de3d/dafbf49e-57ab-4108-ba3a-ab69efabd1d0"
-      (reference "C?") (unit 1) (value "27p") (footprint "")
-    )
     (path "/95515899-f309-4706-b478-ef0c1d74de3d/def6c557-9378-4335-92be-4e0ff8388a8d"
       (reference "C?") (unit 1) (value "100n") (footprint "")
     )
     (path "/95515899-f309-4706-b478-ef0c1d74de3d/e6a32473-c258-4920-9c9d-fc2ce9f40986"
       (reference "C?") (unit 1) (value "100n") (footprint "")
-    )
-    (path "/95515899-f309-4706-b478-ef0c1d74de3d/f90913ed-7a2c-4c5e-9f76-5351103d08bf"
-      (reference "C?") (unit 1) (value "27p") (footprint "")
     )
     (path "/95515899-f309-4706-b478-ef0c1d74de3d/3e6c1971-6bbc-4023-a5ae-394bc3e11e8b"
       (reference "FB?") (unit 1) (value "120R") (footprint "")
