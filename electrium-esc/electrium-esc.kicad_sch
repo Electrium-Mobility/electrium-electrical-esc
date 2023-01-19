@@ -42,18 +42,6 @@
     )
   )
 
-  (sheet (at 29.21 109.22) (size 25.4 10.16) (fields_autoplaced)
-    (stroke (width 0.3) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
-    (uuid 8e3fe61b-a8c8-4119-95ec-c642aa46593a)
-    (property "Sheet name" "Bluetooth" (id 0) (at 29.21 108.5084 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheet file" "Bluetooth.kicad_sch" (id 1) (at 29.21 119.9646 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-  )
-
   (sheet (at 87.63 38.1) (size 67.31 132.08) (fields_autoplaced)
     (stroke (width 0.3) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -74,14 +62,14 @@
     )
   )
 
-  (sheet (at 201.93 39.37) (size 25.4 33.02) (fields_autoplaced)
+  (sheet (at 212.09 40.64) (size 25.4 33.02) (fields_autoplaced)
     (stroke (width 0.3) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 9cfb263a-ea56-4cbe-86e2-b1fdf4c95ad6)
-    (property "Sheet name" "Power MOSFETs" (id 0) (at 201.93 38.6584 0)
+    (property "Sheet name" "Power MOSFETs" (id 0) (at 212.09 39.9284 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "MOSFETs.kicad_sch" (id 1) (at 201.93 72.9746 0)
+    (property "Sheet file" "MOSFETs.kicad_sch" (id 1) (at 212.09 74.2446 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -104,7 +92,6 @@
     (path "/4dcd2554-0c0c-4fca-b220-d2fb156d9cf9" (page "3"))
     (path "/9cfb263a-ea56-4cbe-86e2-b1fdf4c95ad6" (page "4"))
     (path "/f169605c-998e-4bf3-977e-b281c665fab8" (page "5"))
-    (path "/8e3fe61b-a8c8-4119-95ec-c642aa46593a" (page "6"))
   )
 
   (symbol_instances
@@ -156,6 +143,9 @@
     (path "/95515899-f309-4706-b478-ef0c1d74de3d/5edcc7cb-df6a-47ca-9704-c1c2f8fc99a3"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/95515899-f309-4706-b478-ef0c1d74de3d/629fd362-adcb-4532-848a-37a3527ff23a"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+    )
     (path "/4dcd2554-0c0c-4fca-b220-d2fb156d9cf9/63d85dea-db44-40e5-bf60-2e003de08707"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -170,6 +160,9 @@
     )
     (path "/4dcd2554-0c0c-4fca-b220-d2fb156d9cf9/852210df-023e-4857-9fc7-2902ee6ed25c"
       (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/95515899-f309-4706-b478-ef0c1d74de3d/85f66bb2-ef96-4e72-a09b-f148fef61822"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/4dcd2554-0c0c-4fca-b220-d2fb156d9cf9/9c4a02c0-e181-4120-84db-27bbabd088de"
       (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
@@ -250,7 +243,7 @@
       (reference "C?") (unit 1) (value "2.2u") (footprint "")
     )
     (path "/95515899-f309-4706-b478-ef0c1d74de3d/6e926fcb-bc57-4a6a-ac9a-7920661fd921"
-      (reference "C?") (unit 1) (value "10u") (footprint "")
+      (reference "C?") (unit 1) (value "4.7u") (footprint "")
     )
     (path "/4dcd2554-0c0c-4fca-b220-d2fb156d9cf9/72b22397-6364-471b-86f4-98c684f0c349"
       (reference "C?") (unit 1) (value "15u") (footprint "")
@@ -297,11 +290,17 @@
     (path "/95515899-f309-4706-b478-ef0c1d74de3d/cbf9411d-6f96-42b4-ad06-f9aaef2370e7"
       (reference "C?") (unit 1) (value "100n") (footprint "")
     )
+    (path "/95515899-f309-4706-b478-ef0c1d74de3d/cdbd017b-4234-4346-8ec1-7d92071b9c8d"
+      (reference "C?") (unit 1) (value "2.2u") (footprint "")
+    )
     (path "/95515899-f309-4706-b478-ef0c1d74de3d/cdbf2009-4056-4e8b-9eca-950506bcb253"
       (reference "C?") (unit 1) (value "100n") (footprint "")
     )
     (path "/4dcd2554-0c0c-4fca-b220-d2fb156d9cf9/d110a4c0-a1a1-46be-8489-fde56f53b356"
       (reference "C?") (unit 1) (value "22n") (footprint "")
+    )
+    (path "/95515899-f309-4706-b478-ef0c1d74de3d/d1bfab63-f8ba-4f9b-92d6-ff64e58a9173"
+      (reference "C?") (unit 1) (value "2.2u") (footprint "")
     )
     (path "/95515899-f309-4706-b478-ef0c1d74de3d/d6d89a32-b335-48e8-aafb-d74409aee1f1"
       (reference "C?") (unit 1) (value "100n") (footprint "")
