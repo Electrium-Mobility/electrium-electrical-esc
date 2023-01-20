@@ -336,6 +336,18 @@
     [
       "f169605c-998e-4bf3-977e-b281c665fab8",
       "CAN Bus"
+    ],
+    [
+      "6fede19e-5ae9-46d8-9c54-8e5a277732ba",
+      "USB Shield"
+    ],
+    [
+      "d8de0f32-7506-49aa-9adf-28277e02e6ca",
+      "Temperature Sensors"
+    ],
+    [
+      "9d2b8e53-abda-48f4-a6e0-4b62c24d8218",
+      "NRF_COMM"
     ]
   ],
   "text_variables": {}
