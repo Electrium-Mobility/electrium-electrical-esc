@@ -1,14 +1,16 @@
 # Electrium ESC V1.0
 
+This is Electrium's version of the Electronic Speed Controller (dubbed the BESC). Heavy reference was from the VESC 4.11 model from here: https://github.com/vedderb/bldc-hardware.
 
-This is the initial version of the Electronic Speed Controller. Heavy reference was from the VESC 4.11 model from here: https://github.com/vedderb/bldc-hardware.
+## Getting Started
+
+The first thing required is to install KiCad from here: https://www.kicad.org/. Once downloaded, you should be able to pull from the repo and open the project. There are multiple embedded sheets from the top view that you can access.
 
 ## Sheets
 
-
 #### MCU
 
-The MCU is responsible for the control of the entire circuit. This includes getting Firmware uploaded, controlling the Motor controlling, and receiving signals from the remote control.
+The MCU is responsible for the control of the entire circuit. This includes getting Firmware uploaded, controlling the Motor, and receiving signals from the remote control. It is the main brain of the ESC!
 
 #### Motor Driver
 
