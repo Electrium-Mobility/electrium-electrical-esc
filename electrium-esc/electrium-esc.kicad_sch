@@ -363,9 +363,17 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 4027e0df-28be-4c6d-8f1a-0505acd9be05)
   )
+  (wire (pts (xy 64.77 147.32) (xy 87.63 147.32))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 5261f09e-fb75-48fd-b569-61f01d7667dc)
+  )
   (wire (pts (xy 66.04 38.1) (xy 54.61 38.1))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 563dccf6-1de1-4296-80ce-9f6768312442)
+  )
+  (wire (pts (xy 64.77 149.86) (xy 87.63 149.86))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 60705ff3-39a5-4f2e-93c5-43feb5fdcde1)
   )
   (wire (pts (xy 53.34 53.34) (xy 59.69 53.34))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -948,6 +956,14 @@
     (property "Sheet file" "Temp-Sens.kicad_sch" (id 1) (at 40.64 155.5984 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
+    (pin "TEMP_A" output (at 64.77 147.32 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 09c2dc87-7739-4ff0-bcbf-4b6496a69972)
+    )
+    (pin "TEMP_B" output (at 64.77 149.86 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 7b001232-fcfe-489a-aa6e-3f2bf1324289)
+    )
   )
 
   (sheet (at 39.37 76.2) (size 25.4 12.7) (fields_autoplaced)
@@ -1014,6 +1030,9 @@
       (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/95515899-f309-4706-b478-ef0c1d74de3d/26dc8c4c-4dc5-4a37-8154-8a7cb47742bc"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/d8de0f32-7506-49aa-9adf-28277e02e6ca/2972fae5-cfef-4ccb-b80f-9f059b848566"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/f169605c-998e-4bf3-977e-b281c665fab8/2ee81e03-2f9f-4feb-8cfe-725c69becd84"
@@ -1100,11 +1119,17 @@
     (path "/4dcd2554-0c0c-4fca-b220-d2fb156d9cf9/b6d80b1c-37cb-44a4-bb25-fddf7b9b9d81"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/d8de0f32-7506-49aa-9adf-28277e02e6ca/b7bb838f-03b3-4711-b1c9-755b1d4c0747"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/95515899-f309-4706-b478-ef0c1d74de3d/b86fe26a-3f99-4537-9f2f-6dd47cea0948"
       (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/4dcd2554-0c0c-4fca-b220-d2fb156d9cf9/b9368057-6f26-4b22-98de-88420a477b3f"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/d8de0f32-7506-49aa-9adf-28277e02e6ca/c8e4bfc3-cd0a-4858-be68-31329663b00c"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/95515899-f309-4706-b478-ef0c1d74de3d/cd67e38c-7d04-4cf1-9a05-b2a617aae454"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
@@ -1114,6 +1139,9 @@
     )
     (path "/d6be1da7-7790-4ae3-a0f4-2b23be7f9c03"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/d8de0f32-7506-49aa-9adf-28277e02e6ca/e4810854-05f6-4f63-85cf-ee0c3bd9e57f"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/4dcd2554-0c0c-4fca-b220-d2fb156d9cf9/f08bab5d-4585-46c6-86fb-037f9e85b871"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
@@ -1337,6 +1365,9 @@
     (path "/a9234ead-9d35-4cad-a3c2-8c89aba427d1"
       (reference "R?") (unit 1) (value "0") (footprint "")
     )
+    (path "/d8de0f32-7506-49aa-9adf-28277e02e6ca/a9edeece-3a26-415f-9016-4bc6c3332636"
+      (reference "R?") (unit 1) (value "10k") (footprint "")
+    )
     (path "/4dcd2554-0c0c-4fca-b220-d2fb156d9cf9/b40e4240-9146-4636-b31a-fe7829791e9e"
       (reference "R?") (unit 1) (value "100") (footprint "")
     )
@@ -1360,6 +1391,9 @@
     )
     (path "/f169605c-998e-4bf3-977e-b281c665fab8/e6f01216-47fd-4ce7-80cc-77a8a285fb07"
       (reference "R?") (unit 1) (value "IN") (footprint "")
+    )
+    (path "/d8de0f32-7506-49aa-9adf-28277e02e6ca/ff5c54f7-2db5-4e8c-bf21-9ccaa8e0a1bf"
+      (reference "R?") (unit 1) (value "10k") (footprint "")
     )
     (path "/4dcd2554-0c0c-4fca-b220-d2fb156d9cf9/fffaf85d-0ec3-47a5-a0c2-5dee4f447c44"
       (reference "R?") (unit 1) (value "2k2") (footprint "")
