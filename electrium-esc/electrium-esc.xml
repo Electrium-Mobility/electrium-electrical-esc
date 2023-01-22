@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Users\sherw\OneDrive\Desktop\Github\electrium-electrical-esc\electrium-esc\electrium-esc.kicad_sch</source>
-    <date>1/22/2023 11:36:09 AM</date>
+    <date>1/22/2023 3:39:48 PM</date>
     <tool>Eeschema (6.0.10)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -205,8 +205,8 @@
       <tstamps>7b58be21-461d-4602-87a2-ef9eb645ff28</tstamps>
     </comp>
     <comp ref="J2">
-      <value>1050170001</value>
-      <footprint>MOLEX_1050170001</footprint>
+      <value>USB_MICRO</value>
+      <footprint>1050170001:MOLEX_1050170001</footprint>
       <fields>
         <field name="MANUFACTURER">molex</field>
         <field name="PARTREV">F</field>
@@ -649,7 +649,7 @@
     </comp>
     <comp ref="PS1">
       <value>TC2117-3.3VDBTR</value>
-      <footprint>SOT230P700X180-4N</footprint>
+      <footprint>Package_TO_SOT_SMD:SOT-223</footprint>
       <datasheet>https://componentsearchengine.com/Datasheets/2/TC2117-3.3VDBTR.pdf</datasheet>
       <fields>
         <field name="Arrow Part Number">TC2117-3.3VDBTR</field>
@@ -1086,7 +1086,7 @@
     </comp>
     <comp ref="U2">
       <value>DRV8301DCAR</value>
-      <footprint>SOP50P810X120-57N</footprint>
+      <footprint>Package_SO:HTSSOP-56-1EP_6.1x14mm_P0.5mm_EP3.61x6.35mm</footprint>
       <datasheet>http://www.ti.com/lit/gpn/drv8301</datasheet>
       <fields>
         <field name="Arrow Part Number">DRV8301DCAR</field>
@@ -1691,7 +1691,7 @@
     </comp>
     <comp ref="U4">
       <value>DRV8301DCAR</value>
-      <footprint>SOP50P810X120-57N</footprint>
+      <footprint>Package_SO:HTSSOP-56-1EP_6.1x14mm_P0.5mm_EP3.61x6.35mm</footprint>
       <datasheet>http://www.ti.com/lit/gpn/drv8301</datasheet>
       <fields>
         <field name="Arrow Part Number">DRV8301DCAR</field>
@@ -2525,7 +2525,7 @@
   </libparts>
   <libraries>
     <library logical="1050170001">
-      <uri>C:/Users/sherw/Downloads/1050170001(1)/1050170001.kicad_sym</uri>
+      <uri>C:\Users\sherw\Downloads\1050170001\1050170001.lib</uri>
     </library>
     <library logical="Connector">
       <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
