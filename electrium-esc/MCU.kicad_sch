@@ -1382,7 +1382,6 @@
     )
   )
 
-
   (junction (at 153.67 44.45) (diameter 0) (color 0 0 0 0)
     (uuid 00b911ba-b60f-4aa3-a053-e368b453b22c)
   )
@@ -3399,7 +3398,7 @@
     (uuid ab272a38-ae91-43cc-8c37-b105b22f7c71)
     (property "Reference" "J5" (id 0) (at 185.42 92.71 0))
     (property "Value" "Debug Connector" (id 1) (at 181.61 111.76 0))
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" (id 2) (at 186.69 104.14 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" (id 2) (at 186.69 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 186.69 104.14 0)

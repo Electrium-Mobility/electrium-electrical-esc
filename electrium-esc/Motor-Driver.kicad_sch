@@ -699,7 +699,6 @@
     )
   )
 
-
   (junction (at 237.49 105.41) (diameter 0) (color 0 0 0 0)
     (uuid 045ad58b-4fde-40dc-a213-1e551d1d5083)
   )
@@ -2272,7 +2271,7 @@
     (property "Value" "47u" (id 1) (at 204.47 86.7409 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" (id 2) (at 201.6252 90.17 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" (id 2) (at 201.6252 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 200.66 86.36 0)

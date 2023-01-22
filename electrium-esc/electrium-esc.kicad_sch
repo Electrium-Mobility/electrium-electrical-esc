@@ -1757,7 +1757,7 @@
     (uuid 7b58be21-461d-4602-87a2-ef9eb645ff28)
     (property "Reference" "J1" (id 0) (at 23.495 73.66 0))
     (property "Value" "Conn_01x04_Male" (id 1) (at 23.495 76.2 0))
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" (id 2) (at 22.86 81.28 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (id 2) (at 22.86 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 22.86 81.28 0)
@@ -1892,7 +1892,7 @@
     (uuid 928f53cb-3848-4c94-9638-22c4359c3f9a)
     (property "Reference" "J4" (id 0) (at 167.64 187.96 90))
     (property "Value" "Conn_01x04_Male" (id 1) (at 167.64 190.5 90))
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" (id 2) (at 166.37 185.42 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (id 2) (at 166.37 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 166.37 185.42 0)
@@ -1909,7 +1909,7 @@
     (uuid 9797036c-f702-4f5f-bef1-41a9950c6932)
     (property "Reference" "J3" (id 0) (at 53.34 156.21 0))
     (property "Value" "Conn_01x03_Male" (id 1) (at 53.34 158.75 0))
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Right" (id 2) (at 58.42 163.83 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (id 2) (at 58.42 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 58.42 163.83 0)
@@ -2037,7 +2037,7 @@
     (uuid d5a4fada-a18a-42a3-b0ea-f163f0770a26)
     (property "Reference" "J2" (id 0) (at 43.18 46.99 0))
     (property "Value" "USB_MICRO" (id 1) (at 44.45 71.12 0))
-    (property "Footprint" "1050170001:MOLEX_1050170001" (id 2) (at 43.18 58.42 0)
+    (property "Footprint" "USB_MICRO:MOLEX_1050170001" (id 2) (at 43.18 58.42 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 43.18 58.42 0)
@@ -3273,7 +3273,7 @@
       (reference "C40") (unit 1) (value "1n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/4dcd2554-0c0c-4fca-b220-d2fb156d9cf9/9b6e504a-823b-4004-a68a-5c4b78b4c3aa"
-      (reference "C41") (unit 1) (value "47u") (footprint "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm")
+      (reference "C41") (unit 1) (value "47u") (footprint "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm")
     )
     (path "/4dcd2554-0c0c-4fca-b220-d2fb156d9cf9/738b00ae-51e0-4d5a-ab67-667b75c1dfa5"
       (reference "C42") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -3351,7 +3351,7 @@
       (reference "C66") (unit 1) (value "1n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/8c1d7bfe-a7ad-4b08-9e6d-dd7b239bc0ed/9b6e504a-823b-4004-a68a-5c4b78b4c3aa"
-      (reference "C67") (unit 1) (value "47u") (footprint "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm")
+      (reference "C67") (unit 1) (value "47u") (footprint "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm")
     )
     (path "/8c1d7bfe-a7ad-4b08-9e6d-dd7b239bc0ed/738b00ae-51e0-4d5a-ab67-667b75c1dfa5"
       (reference "C68") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -3381,7 +3381,7 @@
       (reference "C76") (unit 1) (value "2.2u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/9d2b8e53-abda-48f4-a6e0-4b62c24d8218/a33ccc0b-45e6-4e7b-ac1d-521d7520e388"
-      (reference "C77") (unit 1) (value "47u") (footprint "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm")
+      (reference "C77") (unit 1) (value "47u") (footprint "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm")
     )
     (path "/5098eb75-ab3f-49e8-b692-4372bb393d18"
       (reference "D1") (unit 1) (value "LED") (footprint "Diode_SMD:D_0201_0603Metric")
@@ -3399,19 +3399,19 @@
       (reference "FB1") (unit 1) (value "120R") (footprint "Ferrite_THT:LairdTech_28C0236-0JW-10")
     )
     (path "/7b58be21-461d-4602-87a2-ef9eb645ff28"
-      (reference "J1") (unit 1) (value "Conn_01x04_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal")
+      (reference "J1") (unit 1) (value "Conn_01x04_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
     )
     (path "/d5a4fada-a18a-42a3-b0ea-f163f0770a26"
-      (reference "J2") (unit 1) (value "USB_MICRO") (footprint "1050170001:MOLEX_1050170001")
+      (reference "J2") (unit 1) (value "USB_MICRO") (footprint "USB_MICRO:MOLEX_1050170001")
     )
     (path "/9797036c-f702-4f5f-bef1-41a9950c6932"
-      (reference "J3") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Right")
+      (reference "J3") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/928f53cb-3848-4c94-9638-22c4359c3f9a"
-      (reference "J4") (unit 1) (value "Conn_01x04_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal")
+      (reference "J4") (unit 1) (value "Conn_01x04_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
     )
     (path "/95515899-f309-4706-b478-ef0c1d74de3d/ab272a38-ae91-43cc-8c37-b105b22f7c71"
-      (reference "J5") (unit 1) (value "Debug Connector") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal")
+      (reference "J5") (unit 1) (value "Debug Connector") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
     )
     (path "/4dcd2554-0c0c-4fca-b220-d2fb156d9cf9/ff64180e-b6ce-40be-a953-e6a02ff559dd"
       (reference "L1") (unit 1) (value "22u") (footprint "Inductor_SMD:L_Wuerth_HCI-1335")
