@@ -338,12 +338,20 @@
       "CAN Bus"
     ],
     [
+      "8c1d7bfe-a7ad-4b08-9e6d-dd7b239bc0ed",
+      "Motor Driver B (DRV8301)"
+    ],
+    [
       "d8de0f32-7506-49aa-9adf-28277e02e6ca",
       "Temperature Sensors"
     ],
     [
       "9d2b8e53-abda-48f4-a6e0-4b62c24d8218",
       "NRF_COMM"
+    ],
+    [
+      "dc84ed4c-f944-42b8-b509-83c5cf59807b",
+      "Power MOSFETs1"
     ]
   ],
   "text_variables": {}
