@@ -3067,7 +3067,7 @@
     (uuid 764763fd-5dd9-4c52-a8c3-a0c0d2fc9a51)
     (property "Reference" "PS1" (id 0) (at 44.45 20.32 0))
     (property "Value" "TC2117-3.3VDBTR" (id 1) (at 44.45 22.86 0))
-    (property "Footprint" "SOT230P700X180-4N" (id 2) (at 57.15 25.4 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-223" (id 2) (at 57.15 25.4 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://componentsearchengine.com/Datasheets/2/TC2117-3.3VDBTR.pdf" (id 3) (at 57.15 27.94 0)

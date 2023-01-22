@@ -2437,7 +2437,7 @@
     (uuid b9bd665f-b20d-4cd0-b6ff-e6534d047e07)
     (property "Reference" "U2" (id 0) (at 143.51 64.77 0))
     (property "Value" "DRV8301DCAR" (id 1) (at 139.7 147.32 0))
-    (property "Footprint" "SOP50P810X120-57N" (id 2) (at 146.05 67.31 0)
+    (property "Footprint" "Package_SO:HTSSOP-56-1EP_6.1x14mm_P0.5mm_EP3.61x6.35mm" (id 2) (at 146.05 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/drv8301" (id 3) (at 146.05 69.85 0)
