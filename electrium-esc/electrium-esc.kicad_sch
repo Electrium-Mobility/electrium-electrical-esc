@@ -1811,7 +1811,7 @@
     (in_bom yes) (on_board yes)
     (uuid 49d1a796-871b-4fe2-9503-f16f11030f78)
     (property "Reference" "C78" (id 0) (at 243.84 27.94 90))
-    (property "Value" "100u" (id 1) (at 246.38 34.29 90))
+    (property "Value" "1000u" (id 1) (at 246.38 34.29 90))
     (property "Footprint" "" (id 2) (at 250.19 29.5148 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2277,7 +2277,7 @@
     (in_bom yes) (on_board yes)
     (uuid c476a5aa-d471-4bfa-bd3d-9f9dd6e58542)
     (property "Reference" "C71" (id 0) (at 243.84 17.78 90))
-    (property "Value" "100u" (id 1) (at 246.38 24.13 90))
+    (property "Value" "1000u" (id 1) (at 246.38 24.13 90))
     (property "Footprint" "" (id 2) (at 250.19 19.3548 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3692,7 +3692,7 @@
       (reference "C70") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/c476a5aa-d471-4bfa-bd3d-9f9dd6e58542"
-      (reference "C71") (unit 1) (value "100u") (footprint "")
+      (reference "C71") (unit 1) (value "1000u") (footprint "")
     )
     (path "/f169605c-998e-4bf3-977e-b281c665fab8/61e8be5d-141d-4f7d-9709-fb6624103054"
       (reference "C72") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -3713,7 +3713,7 @@
       (reference "C77") (unit 1) (value "2.2u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/49d1a796-871b-4fe2-9503-f16f11030f78"
-      (reference "C78") (unit 1) (value "100u") (footprint "")
+      (reference "C78") (unit 1) (value "1000u") (footprint "")
     )
     (path "/5e9c9536-b4af-4c8c-9511-f89016d638a9"
       (reference "C79") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
