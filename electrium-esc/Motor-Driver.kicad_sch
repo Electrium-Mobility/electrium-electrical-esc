@@ -699,7 +699,6 @@
     )
   )
 
-
   (junction (at 237.49 105.41) (diameter 0) (color 0 0 0 0)
     (uuid 045ad58b-4fde-40dc-a213-1e551d1d5083)
   )
@@ -2741,7 +2740,7 @@
     (uuid ff64180e-b6ce-40be-a953-e6a02ff559dd)
     (property "Reference" "L1" (id 0) (at 190.5 77.47 0))
     (property "Value" "22u" (id 1) (at 190.5 81.28 0))
-    (property "Footprint" "Inductor_SMD:L_Wuerth_HCI-1335" (id 2) (at 190.5 80.01 0)
+    (property "Footprint" "Inductor_SMD:L_Vishay_IHLP-2020" (id 2) (at 190.5 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 190.5 80.01 0)
