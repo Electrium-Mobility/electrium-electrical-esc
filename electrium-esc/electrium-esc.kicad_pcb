@@ -593,7 +593,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 084d6ac2-62ab-4f26-a7ee-9d4906c2ac1e)
-    (at 76.85 66.03)
+    (at 217.876 95.762)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MOSFETs.kicad_sch")
@@ -803,7 +803,7 @@
 
   (footprint "Package_TO_SOT_SMD:TO-263-2" (layer "F.Cu")
     (tedit 5A70FB7B) (tstamp 0b0f8191-14d4-44dc-b0f7-98706d8fd85b)
-    (at 101.38 90.26)
+    (at 242.406 123.444)
     (descr "TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/")
     (tags "D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404")
     (property "Sheetfile" "MOSFETs.kicad_sch")
@@ -865,7 +865,7 @@
 
   (footprint "Package_TO_SOT_SMD:TO-263-2" (layer "F.Cu")
     (tedit 5A70FB7B) (tstamp 0c0b0800-fc03-4451-921f-f2a95c750f44)
-    (at 119.07 77.91)
+    (at 260.096 111.094)
     (descr "TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/")
     (tags "D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404")
     (property "Sheetfile" "MOSFETs.kicad_sch")
@@ -969,7 +969,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 0cacb7c4-3ed3-4443-9b59-76326fcca683)
-    (at 84.87 63.52)
+    (at 225.896 93.252)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MOSFETs.kicad_sch")
@@ -1353,7 +1353,7 @@
 
   (footprint "Package_TO_SOT_SMD:TO-263-2" (layer "F.Cu")
     (tedit 5A70FB7B) (tstamp 1baab146-f524-4ba9-8ff2-ca68e9214f25)
-    (at 83.69 41.23)
+    (at 224.716 70.962)
     (descr "TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/")
     (tags "D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404")
     (property "Sheetfile" "MOSFETs.kicad_sch")
@@ -1607,7 +1607,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 21ec6525-31b5-47fb-863c-47831e362ded)
-    (at 80.86 63.52)
+    (at 221.886 93.252)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MOSFETs.kicad_sch")
@@ -2100,7 +2100,7 @@
 
   (footprint "Package_TO_SOT_SMD:TO-263-2" (layer "F.Cu")
     (tedit 5A70FB7B) (tstamp 3d8d79c4-ac8b-41e4-ab15-8f64e8c7b95a)
-    (at 119.07 41.23)
+    (at 260.096 70.962)
     (descr "TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/")
     (tags "D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404")
     (property "Sheetfile" "MOSFETs.kicad_sch")
@@ -2414,7 +2414,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 4466525d-f1ce-43da-a2b5-8331eec5081c)
-    (at 92.89 97.69)
+    (at 233.916 130.874)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MOSFETs.kicad_sch")
@@ -2624,7 +2624,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 47d67874-89d6-41bd-88d7-131f07eb40bf)
-    (at 92.89 61.01)
+    (at 233.916 90.742)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MOSFETs.kicad_sch")
@@ -3469,7 +3469,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 58dae03e-fb4f-41af-bc08-af9d93b1b103)
-    (at 88.88 61.01)
+    (at 229.906 90.742)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MOSFETs.kicad_sch")
@@ -3595,7 +3595,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 5cff905c-bd6b-4ca7-98e2-ea4263db2bed)
-    (at 80.86 61.01)
+    (at 221.886 90.742)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MOSFETs.kicad_sch")
@@ -4412,7 +4412,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 71ed1db9-d70d-4174-8951-21146ce47d1c)
-    (at 80.86 100.2)
+    (at 221.886 133.384)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MOSFETs.kicad_sch")
@@ -4538,7 +4538,7 @@
 
   (footprint "Package_TO_SOT_SMD:TO-263-2" (layer "F.Cu")
     (tedit 5A70FB7B) (tstamp 77b1fe54-a131-4361-9228-e40bd7aa1d55)
-    (at 119.07 53.58)
+    (at 260.096 83.312)
     (descr "TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/")
     (tags "D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404")
     (property "Sheetfile" "MOSFETs.kicad_sch")
@@ -4855,22 +4855,22 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp 7d4f8484-692a-4b0d-9366-6aeb54c30a2b)
-    (at 143.41 110.74)
+    (at 125.74 38.608 90)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
     (property "Sheetfile" "electrium-esc.kicad_sch")
     (property "Sheetname" "")
     (path "/928f53cb-3848-4c94-9638-22c4359c3f9a")
     (attr through_hole)
-    (fp_text reference "J4" (at 0 -2.33) (layer "F.SilkS")
+    (fp_text reference "J4" (at -3.048 4.308 180) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b46273a4-076c-471b-b4bd-f51be668389a)
     )
-    (fp_text value "Conn_01x04_Male" (at 0 9.95) (layer "F.Fab")
+    (fp_text value "SERVO" (at 0 9.95 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1d898c49-115a-40b9-9afb-d7e29013d812)
     )
-    (fp_text user "${REFERENCE}" (at 0 3.81 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 3.81) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6d60779d-9474-4c8c-be68-99c692f1a343)
     )
@@ -4889,13 +4889,13 @@
     (fp_line (start -1.27 -0.635) (end -0.635 -1.27) (layer "F.Fab") (width 0.1) (tstamp 74e4fd1f-ef1c-460c-9e5b-e21c0343796e))
     (fp_line (start -0.635 -1.27) (end 1.27 -1.27) (layer "F.Fab") (width 0.1) (tstamp 978595ae-3e19-4e20-8630-480afc1f1e49))
     (fp_line (start 1.27 -1.27) (end 1.27 8.89) (layer "F.Fab") (width 0.1) (tstamp ee6fd17d-1ea1-4dcd-9fd7-39c9d600a50d))
-    (pad "1" thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad "1" thru_hole rect (at 0 0 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 8 "+3.3V") (pinfunction "Pin_1") (pintype "passive") (tstamp 962187b7-35aa-43a0-bbd6-78fa350c6482))
-    (pad "2" thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad "2" thru_hole oval (at 0 2.54 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 57 "Net-(J4-Pad2)") (pinfunction "Pin_2") (pintype "passive") (tstamp 1b4f06f0-331f-4633-ba4d-130bdba2fc74))
-    (pad "3" thru_hole oval (at 0 5.08) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad "3" thru_hole oval (at 0 5.08 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 58 "Net-(J4-Pad3)") (pinfunction "Pin_3") (pintype "passive") (tstamp 1c705445-621b-492a-bc10-eae8808ceb81))
-    (pad "4" thru_hole oval (at 0 7.62) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad "4" thru_hole oval (at 0 7.62 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 2 "GND") (pinfunction "Pin_4") (pintype "passive") (tstamp f6a3c56c-9d66-4e72-b1ac-24f0535d95bd))
     (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 0))
@@ -4930,7 +4930,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 7e51dac5-2c3f-4dac-b8eb-96decb5a9c36)
-    (at 80.86 97.69)
+    (at 221.886 130.874)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MOSFETs.kicad_sch")
@@ -4972,7 +4972,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 7ed7709a-b046-4ee3-b7a1-19e4d859fd89)
-    (at 84.87 100.2)
+    (at 225.896 133.384)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MOSFETs.kicad_sch")
@@ -5014,7 +5014,7 @@
 
   (footprint "Package_TO_SOT_SMD:TO-263-2" (layer "F.Cu")
     (tedit 5A70FB7B) (tstamp 81eec19b-ad5a-4ff2-9883-7c0a8c1e3c2a)
-    (at 101.38 77.91)
+    (at 242.406 111.094)
     (descr "TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/")
     (tags "D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404")
     (property "Sheetfile" "MOSFETs.kicad_sch")
@@ -5257,7 +5257,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 83dc4bfe-d18e-43d6-98ef-4020a4f72829)
-    (at 76.85 102.71)
+    (at 217.876 135.894)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MOSFETs.kicad_sch")
@@ -5383,7 +5383,7 @@
 
   (footprint "Package_TO_SOT_SMD:TO-263-2" (layer "F.Cu")
     (tedit 5A70FB7B) (tstamp 8baf24dd-6d53-43c0-95cb-bfa67fa5a6dd)
-    (at 83.69 90.26)
+    (at 224.716 123.444)
     (descr "TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/")
     (tags "D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404")
     (property "Sheetfile" "MOSFETs.kicad_sch")
@@ -5787,7 +5787,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 94385b8e-7848-498e-bead-8a8fdfb680f7)
-    (at 84.87 97.69)
+    (at 225.896 130.874)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MOSFETs.kicad_sch")
@@ -6255,7 +6255,7 @@
 
   (footprint "Package_TO_SOT_SMD:TO-263-2" (layer "F.Cu")
     (tedit 5A70FB7B) (tstamp 9f9a68a3-cd4c-4584-8331-d34594b438d3)
-    (at 83.69 77.91)
+    (at 224.716 111.094)
     (descr "TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/")
     (tags "D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404")
     (property "Sheetfile" "MOSFETs.kicad_sch")
@@ -6317,7 +6317,7 @@
 
   (footprint "Package_TO_SOT_SMD:TO-263-2" (layer "F.Cu")
     (tedit 5A70FB7B) (tstamp 9ff502bc-59ea-4421-a461-3cc4795165d4)
-    (at 83.69 53.58)
+    (at 224.716 83.312)
     (descr "TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/")
     (tags "D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404")
     (property "Sheetfile" "MOSFETs.kicad_sch")
@@ -6899,7 +6899,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp b7a6f1ae-326a-40fd-aad7-ff4c9466f8f2)
-    (at 76.85 63.52)
+    (at 217.876 93.252)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MOSFETs.kicad_sch")
@@ -7430,7 +7430,7 @@
 
   (footprint "Package_TO_SOT_SMD:TO-263-2" (layer "F.Cu")
     (tedit 5A70FB7B) (tstamp c9c16c1f-9fce-44ec-a66d-843a4c256fb5)
-    (at 119.07 90.26)
+    (at 260.096 123.444)
     (descr "TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/")
     (tags "D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404")
     (property "Sheetfile" "MOSFETs.kicad_sch")
@@ -7786,7 +7786,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp df1277bb-ba3c-4fde-ae13-afab976ac359)
-    (at 76.85 97.69)
+    (at 217.876 130.874)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MOSFETs.kicad_sch")
@@ -7921,7 +7921,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp e2be929a-04db-4cb9-9bbf-10ab3dfa17a1)
-    (at 76.85 61.01)
+    (at 217.876 90.742)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MOSFETs.kicad_sch")
@@ -7963,7 +7963,7 @@
 
   (footprint "Package_TO_SOT_SMD:TO-263-2" (layer "F.Cu")
     (tedit 5A70FB7B) (tstamp e41076ed-1836-49ea-9cc1-8ef83c596339)
-    (at 101.38 53.58)
+    (at 242.406 83.312)
     (descr "TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/")
     (tags "D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404")
     (property "Sheetfile" "MOSFETs.kicad_sch")
@@ -8112,7 +8112,7 @@
 
   (footprint "Package_TO_SOT_SMD:TO-263-2" (layer "F.Cu")
     (tedit 5A70FB7B) (tstamp e75729c5-a0fc-4f3b-a361-015b51ed8fa0)
-    (at 101.38 41.23)
+    (at 242.406 70.962)
     (descr "TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/")
     (tags "D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404")
     (property "Sheetfile" "MOSFETs.kicad_sch")
@@ -8307,7 +8307,7 @@
     (property "Sheetname" "")
     (path "/d5a4fada-a18a-42a3-b0ea-f163f0770a26")
     (attr smd)
-    (fp_text reference "J2" (at -1.13507 -4.27527) (layer "F.SilkS")
+    (fp_text reference "J2" (at 139.89093 25.45673) (layer "F.SilkS")
       (effects (font (size 1.000063 1.000063) (thickness 0.15)))
       (tstamp ef757850-5451-4ce4-9f77-81be2371cd5a)
     )
@@ -8369,7 +8369,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp edaeb1d5-203d-4cc8-a53c-0a21d985845a)
-    (at 88.88 97.69)
+    (at 229.906 130.874)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MOSFETs.kicad_sch")
@@ -8979,7 +8979,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp f95382d0-3acc-4e82-9f3a-d6b513c6ac15)
-    (at 84.87 61.01)
+    (at 225.896 90.742)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MOSFETs.kicad_sch")
@@ -9277,7 +9277,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp ff9c77a4-706d-4057-8db3-2c5a071002ae)
-    (at 76.85 100.2)
+    (at 217.876 133.384)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MOSFETs.kicad_sch")
@@ -9358,5 +9358,7 @@
       (rotate (xyz 0 0 0))
     )
   )
+
+  (gr_rect (start 71.12 35.56) (end 208.788 124.46) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp 7fbc0af8-0773-417c-9168-ba7d276d9999))
 
 )
