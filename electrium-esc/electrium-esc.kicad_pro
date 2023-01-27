@@ -452,10 +452,6 @@
       "Power MOSFETs A"
     ],
     [
-      "f169605c-998e-4bf3-977e-b281c665fab8",
-      "CAN Bus"
-    ],
-    [
       "8c1d7bfe-a7ad-4b08-9e6d-dd7b239bc0ed",
       "Motor Driver B (DRV8301)"
     ],
