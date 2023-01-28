@@ -1,0 +1,22 @@
+Plotted to 'C:\Users\sherw\OneDrive\Desktop\Github\electrium-electrical-esc\electrium-esc\electrium-esc-F_Cu.gbr'.
+Plotted to 'C:\Users\sherw\OneDrive\Desktop\Github\electrium-electrical-esc\electrium-esc\electrium-esc-B_Cu.gbr'.
+Plotted to 'C:\Users\sherw\OneDrive\Desktop\Github\electrium-electrical-esc\electrium-esc\electrium-esc-F_Paste.gbr'.
+Plotted to 'C:\Users\sherw\OneDrive\Desktop\Github\electrium-electrical-esc\electrium-esc\electrium-esc-B_Paste.gbr'.
+Plotted to 'C:\Users\sherw\OneDrive\Desktop\Github\electrium-electrical-esc\electrium-esc\electrium-esc-F_Silkscreen.gbr'.
+Plotted to 'C:\Users\sherw\OneDrive\Desktop\Github\electrium-electrical-esc\electrium-esc\electrium-esc-B_Silkscreen.gbr'.
+Plotted to 'C:\Users\sherw\OneDrive\Desktop\Github\electrium-electrical-esc\electrium-esc\electrium-esc-F_Mask.gbr'.
+Plotted to 'C:\Users\sherw\OneDrive\Desktop\Github\electrium-electrical-esc\electrium-esc\electrium-esc-B_Mask.gbr'.
+Plotted to 'C:\Users\sherw\OneDrive\Desktop\Github\electrium-electrical-esc\electrium-esc\electrium-esc-Edge_Cuts.gbr'.
+Created Gerber job file 'C:\Users\sherw\OneDrive\Desktop\Github\electrium-electrical-esc\electrium-esc\electrium-esc-job.gbrjob'.
+Plotted to 'C:\Users\sherw\OneDrive\Desktop\Github\electrium-electrical-esc\gerber-files\electrium-esc-F_Cu.gbr'.
+Plotted to 'C:\Users\sherw\OneDrive\Desktop\Github\electrium-electrical-esc\gerber-files\electrium-esc-B_Cu.gbr'.
+Plotted to 'C:\Users\sherw\OneDrive\Desktop\Github\electrium-electrical-esc\gerber-files\electrium-esc-F_Paste.gbr'.
+Plotted to 'C:\Users\sherw\OneDrive\Desktop\Github\electrium-electrical-esc\gerber-files\electrium-esc-B_Paste.gbr'.
+Plotted to 'C:\Users\sherw\OneDrive\Desktop\Github\electrium-electrical-esc\gerber-files\electrium-esc-F_Silkscreen.gbr'.
+Plotted to 'C:\Users\sherw\OneDrive\Desktop\Github\electrium-electrical-esc\gerber-files\electrium-esc-B_Silkscreen.gbr'.
+Plotted to 'C:\Users\sherw\OneDrive\Desktop\Github\electrium-electrical-esc\gerber-files\electrium-esc-F_Mask.gbr'.
+Plotted to 'C:\Users\sherw\OneDrive\Desktop\Github\electrium-electrical-esc\gerber-files\electrium-esc-B_Mask.gbr'.
+Plotted to 'C:\Users\sherw\OneDrive\Desktop\Github\electrium-electrical-esc\gerber-files\electrium-esc-Edge_Cuts.gbr'.
+Created Gerber job file 'C:\Users\sherw\OneDrive\Desktop\Github\electrium-electrical-esc\gerber-files\electrium-esc-job.gbrjob'.
+Info: Done.
+Info: Done.

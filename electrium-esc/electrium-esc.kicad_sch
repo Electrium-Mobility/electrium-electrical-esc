@@ -1714,7 +1714,7 @@
     (uuid 3c103bef-0efb-4142-b313-3083a43ce99d)
     (property "Reference" "D3" (id 0) (at 41.91 26.67 0))
     (property "Value" "1N5819" (id 1) (at 41.91 31.75 0))
-    (property "Footprint" "Diode_SMD:D_SOD-123" (id 2) (at 45.72 24.765 0)
+    (property "Footprint" "Diode_SMD:D_SMA" (id 2) (at 45.72 24.765 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf" (id 3) (at 45.72 29.21 0)
@@ -1983,7 +1983,7 @@
     (uuid 7c2a1523-547e-41f9-846d-b97ecea82980)
     (property "Reference" "D4" (id 0) (at 64.77 26.67 0))
     (property "Value" "1N5819" (id 1) (at 64.77 31.75 0))
-    (property "Footprint" "Diode_SMD:D_SOD-123" (id 2) (at 68.58 24.765 0)
+    (property "Footprint" "Diode_SMD:D_SMA" (id 2) (at 68.58 24.765 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf" (id 3) (at 68.58 29.21 0)
@@ -3655,16 +3655,16 @@
       (reference "C79") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/4dcd2554-0c0c-4fca-b220-d2fb156d9cf9/2194da5e-abcb-490c-ad12-09330a88057c"
-      (reference "D1") (unit 1) (value "1N5819") (footprint "Diode_SMD:D_SOD-123")
+      (reference "D1") (unit 1) (value "1N5819") (footprint "Diode_SMD:D_SMA")
     )
     (path "/8c1d7bfe-a7ad-4b08-9e6d-dd7b239bc0ed/2194da5e-abcb-490c-ad12-09330a88057c"
-      (reference "D2") (unit 1) (value "1N5819") (footprint "Diode_SMD:D_SOD-123")
+      (reference "D2") (unit 1) (value "1N5819") (footprint "Diode_SMD:D_SMA")
     )
     (path "/3c103bef-0efb-4142-b313-3083a43ce99d"
-      (reference "D3") (unit 1) (value "1N5819") (footprint "Diode_SMD:D_SOD-123")
+      (reference "D3") (unit 1) (value "1N5819") (footprint "Diode_SMD:D_SMA")
     )
     (path "/7c2a1523-547e-41f9-846d-b97ecea82980"
-      (reference "D4") (unit 1) (value "1N5819") (footprint "Diode_SMD:D_SOD-123")
+      (reference "D4") (unit 1) (value "1N5819") (footprint "Diode_SMD:D_SMA")
     )
     (path "/5098eb75-ab3f-49e8-b692-4372bb393d18"
       (reference "D5") (unit 1) (value "LED") (footprint "Diode_SMD:D_0402_1005Metric")

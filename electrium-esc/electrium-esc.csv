@@ -1,55 +1,49 @@
-"Source:","C:\Users\sherw\OneDrive\Desktop\Github\electrium-electrical-esc\electrium-esc\electrium-esc.kicad_sch"
-"Date:","1/22/2023 3:39:48 PM"
-"Tool:","Eeschema (6.0.10)"
-"Generator:","C:\Program Files\KiCad\6.0\bin\scripting\plugins/bom_csv_grouped_by_value_with_fp.py"
-"Component Count:","187"
-"Ref","Qnty","Value","Cmp name","Footprint","Description","Vendor"
-"C1, C2, C13, C14, C15, C16, C17, C18, C19, C20, C21, C22, C23, C24, C25, C49, C50, C51, ","18","100n","C","Capacitor_SMD:C_0603_1608Metric","Unpolarized capacitor",""
-"C3, C6, C7, C8, C27, C53, C75, C76, ","8","2.2u","C","Capacitor_SMD:C_0603_1608Metric","Unpolarized capacitor",""
-"C4, C5, ","2","27p","C","Capacitor_SMD:C_0603_1608Metric","Unpolarized capacitor",""
-"C9, C10, C28, C31, C54, C57, ","6","1u","C","Capacitor_SMD:C_0603_1608Metric","Unpolarized capacitor",""
-"C11, ","1","10n","C","Capacitor_SMD:C_0603_1608Metric","Unpolarized capacitor",""
-"C12, ","1","4.7u","C","Capacitor_SMD:C_0603_1608Metric","Unpolarized capacitor",""
-"C26, C52, ","2","120p","C","Capacitor_SMD:C_0603_1608Metric","Unpolarized capacitor",""
-"C29, C55, ","2","6.8n","C","Capacitor_SMD:C_0603_1608Metric","Unpolarized capacitor",""
-"C30, C56, ","2","22n","C","Capacitor_SMD:C_0603_1608Metric","Unpolarized capacitor",""
-"C32, C37, C38, C39, C42, C44, C46, C47, C58, C63, C64, C65, C68, C70, C72, C73, ","16","10u","C","Capacitor_SMD:C_0603_1608Metric","Unpolarized capacitor",""
-"C33, C34, C35, C36, C59, C60, C61, C62, ","8","0.1u","C","Capacitor_SMD:C_0603_1608Metric","Unpolarized capacitor",""
-"C40, C43, C66, C69, ","4","1n","C","Capacitor_SMD:C_0603_1608Metric","Unpolarized capacitor",""
-"C41, C67, C77, ","3","47u","C","Capacitor_THT:CP_Radial_D10.0mm_P5.00mm","Unpolarized capacitor",""
-"C45, C48, C71, C74, ","4","15u","C","Capacitor_SMD:C_0603_1608Metric","Unpolarized capacitor",""
-"D1, D2, ","2","LED","LED","Diode_SMD:D_0201_0603Metric","Light emitting diode",""
-"D3, D4, ","2","1N5819","1N5819","Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal","40V 1A Schottky Barrier Rectifier Diode, DO-41",""
-"FB1, ","1","120R","FerriteBead","Ferrite_THT:LairdTech_28C0236-0JW-10","Ferrite bead",""
-"J1, J4, ","2","Conn_01x04_Male","Conn_01x04_Male","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal","Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",""
-"J2, ","1","USB_MICRO","1050170001","1050170001:MOLEX_1050170001","",""
-"J3, ","1","Conn_01x03_Male","Conn_01x03_Male","Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Right","Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",""
-"J5, ","1","Debug Connector","Conn_01x06_Male","Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal","Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)",""
-"L1, L2, ","2","22u","INDUCTOR","Inductor_SMD:L_Wuerth_HCI-1335","Inductor symbol for simulation only",""
-"PS1, ","1","TC2117-3.3VDBTR","TC2117-3.3VDBTR","Package_TO_SOT_SMD:SOT-223","Microchip TC2117-3.3VDBTR, LDO Voltage Regulator, 800mA, 3.3 V +/-0.5%, 2.7  6 Vin, 3-Pin SOT-223",""
-"Q1, Q2, Q3, Q4, Q5, Q6, Q7, Q8, Q9, Q10, Q11, Q12, ","12","IRFS7530TRLPBF","STB15N80K5","Package_TO_SOT_SMD:TO-263-2","14A Id, 800V Vds, N-Channel MOSFET, 375mOhm Ron, D2PAK",""
-"R1, R2, R7, R29, R30, R31, R57, R58, R59, ","9","2k2","R","Resistor_SMD:R_0603_1608Metric","Resistor",""
-"R3, R26, R27, R28, R34, R37, R40, R54, R55, R56, R64, R67, R70, ","13","39k","R","Resistor_SMD:R_0603_1608Metric","Resistor",""
-"R4, R5, R6, R9, R10, ","5","0","R","Resistor_SMD:R_0603_1608Metric","Resistor",""
-"R8, R22, R23, R24, R25, R50, R51, R52, R53, ","9","100","R","Resistor_SMD:R_0603_1608Metric","Resistor",""
-"R11, R12, R13, R14, ","4","SHUNT","R","Resistor_SMD:R_Shunt_Ohmite_LVK12","Resistor",""
-"R15, R17, R19, R20, R45, R47, R48, R60, R61, ","9","10k","R","Resistor_SMD:R_0603_1608Metric","Resistor",""
-"R16, R44, ","2","31k6","R","Resistor_SMD:R_0603_1608Metric","Resistor",""
-"R18, R46, ","2","15k","R","Resistor_SMD:R_0603_1608Metric","Resistor",""
-"R21, R49, ","2","220k","R","Resistor_SMD:R_0603_1608Metric","Resistor",""
-"R32, R33, R35, R36, R38, R39, R62, R63, R65, R66, R68, R69, ","12","4R7","R","Resistor_SMD:R_0603_1608Metric","Resistor",""
-"R41, R42, ","2","10","R","Resistor_SMD:R_0603_1608Metric","Resistor",""
-"R43, ","1","IN","R","Resistor_SMD:R_0603_1608Metric","Resistor",""
-"SW1, ","1","SW_SPDT","SW_SPDT","Resistor_SMD:R_0603_1608Metric","Switch, single pole double throw",""
-"TH1, TH2, ","2","Thermistor_PTC","Thermistor_PTC","Resistor_SMD:R_0603_1608Metric","Temperature dependent resistor, positive temperature coefficient",""
-"TP1, ","1","M_1A","TestPoint_Small","","test point",""
-"TP2, ","1","M_2A","TestPoint_Small","","test point",""
-"TP3, ","1","M_3A","TestPoint_Small","","test point",""
-"TP4, ","1","M_1B","TestPoint_Small","","test point",""
-"TP5, ","1","M_2B","TestPoint_Small","","test point",""
-"TP6, ","1","M_3B","TestPoint_Small","","test point",""
-"U1, ","1","STM32F407ZGT6","STM32F407ZGTx","Package_QFP:LQFP-144_20x20mm_P0.5mm","ARM Cortex-M4 MCU, 1024KB flash, 128KB RAM, 168MHz, 1.8-3.6V, 114 GPIO, LQFP-144",""
-"U2, U4, ","2","DRV8301DCAR","DRV8301DCAR","Package_SO:HTSSOP-56-1EP_6.1x14mm_P0.5mm_EP3.61x6.35mm","3-Phase Brushless Motor Pre-Driver with Dual Current Sense Amps and Buck Converter (PWM Ctrl w/ SPI)",""
-"U3, ","1","SN65HVD232","SN65HVD232","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","CAN Bus Transceivers, 3.3V, 1Mbps, SOIC-8",""
-"U5, ","1","NRF24L01_Breakout","NRF24L01_Breakout","RF_Module:nRF24L01_Breakout","Ultra low power 2.4GHz RF Transceiver, Carrier PCB",""
-"Y1, ","1","25MHz","Crystal_GND24","Oscillator:Oscillator_SMD_TXC_7C-4Pin_5.0x3.2mm","Four pin crystal, GND on pins 2 and 4",""
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"C9,C66,C10,C67,C8,C43,C44";"C_0603_1608Metric";7;"1u";;;
+2;"C28,C56,C29,C48,C52,C45,C49,C47,C33,C51,C46,C26,C69,C68,C70,C25";"C_0603_1608Metric";16;"10u";;;
+3;"C17,C2,C79,C19,C5,C18,C4,C12,C11,C13,C3,C16,C14,C20,C15";"C_0603_1608Metric";15;"100n";;;
+4;"R25,R14,R32,R30,R66,R10,R26,R9,R16";"R_0603_1608Metric";9;"100";;;
+5;"C54,C31";"C_0603_1608Metric";2;"6.8n";;;
+6;"C41,C64,C65,C42";"C_0603_1608Metric";4;"1n";;;
+7;"D2,D1,D3,D4";"D_SOD-123";4;"1N5819";;;
+8;"Y1";"Oscillator_SMD_TXC_7C-4Pin_5.0x3.2mm";1;"25MHz";;;
+9;"C23,C24";"C_0603_1608Metric";2;"27p";;;
+10;"Q4,Q5,Q1,Q8,Q11,Q9,Q7,Q6,Q10,Q2,Q3,Q12";"TO-220-3_Vertical";12;"IRF3205";;;
+11;"J4";"PinHeader_1x03_P2.54mm_Vertical";1;"SERVO";;;
+12;"R20,R4";"R_0603_1608Metric";2;"220k";;;
+13;"TP4";"MOTOR_PAD";1;"M_1B";;;
+14;"R36,R45,R44,R39,R38,R34,R47,R48,R46,R37,R43,R35";"R_0805_2012Metric";12;"4R7";;;
+15;"C57,C40,C63,C36,C59,C61,C34,C38";"C_0603_1608Metric";8;"0.1u";;;
+16;"U5";"nRF24L01_Breakout";1;"NRF24L01_Breakout";;;
+17;"TH2,TH1";"R_0603_1608Metric";2;"Thermistor_PTC";;;
+18;"R3,R19";"R_0603_1608Metric";2;"31k6";;;
+19;"R62,R52,R11,R29,R13,R17,R33,R27";"R_0603_1608Metric";8;"2k2";;;
+20;"R1,R7,R6,R21,R72,R71,R22,R23,R5";"R_0603_1608Metric";9;"10k";;;
+21;"R54,R64,R63";"R_0603_1608Metric";3;"0";;;
+22;"C58,C75,C35";"CP_Radial_D4.0mm_P1.50mm";3;"47u";;;
+23;"C53,C50,C30,C27";"C_0603_1608Metric";4;"15u";;;
+24;"C7,C6,C60,C77,C37,C22,C21,C76";"C_0603_1608Metric";8;"2.2u";;;
+25;"U3,U2";"HTSSOP-56-1EP_6.1x14mm_P0.5mm_EP3.61x6.35mm";2;"DRV8301DCAR";;;
+26;"D5,D6";"D_0402_1005Metric";2;"LED";;;
+27;"J5";"PinHeader_1x04_P2.54mm_Vertical";1;"Conn_01x04_Male";;;
+28;"TP6";"MOTOR_PAD";1;"M_3B";;;
+29;"J1";"PinHeader_1x06_P2.54mm_Vertical";1;"Debug Connector";;;
+30;"C1";"C_0603_1608Metric";1;"4.7u";;;
+31;"TP2";"MOTOR_PAD";1;"M_2A";;;
+32;"TP3";"MOTOR_PAD";1;"M_3A";;;
+33;"R18,R2";"R_0603_1608Metric";2;"15k";;;
+34;"TP5";"MOTOR_PAD";1;"M_2B";;;
+35;"R57";"R_0603_1608Metric";1;"1k5";;;
+36;"SW1";"SW_CuK_JS202011CQN_DPDT_Straight";1;"SW_SPDT";;;
+37;"R53,R8,R15,R12,R31,R28,R24";"R_0603_1608Metric";7;"39k";;;
+38;"PS1";"SOT-223";1;"TC2117-3.3VDBTR";;;
+39;"TP1";"MOTOR_PAD";1;"M_1A";;;
+40;"J2";"MOLEX_1050170001";1;"USB_MICRO";;;
+41;"U1";"LQFP-144_20x20mm_P0.5mm";1;"STM32F407ZGT6";;;
+42;"L1,L2";"L_Taiyo-Yuden_NR-30xx";2;"22u";;;
+43;"C39,C62";"C_0603_1608Metric";2;"22n";;;
+44;"R65";"R_0603_1608Metric";1;"220";;;
+45;"R51,R42,R40,R49,R41,R50";"R_0805_2012Metric";6;"39k";;;
+46;"R58,R61,R60,R59";"R_2512_6332Metric";4;"SHUNT";;;
+47;"R56,R55";"R_0603_1608Metric";2;"22";;;
+48;"C55,C32";"C_0603_1608Metric";2;"120p";;;
