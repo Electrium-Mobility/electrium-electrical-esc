@@ -3631,10 +3631,10 @@
       (reference "J5") (unit 1) (value "Conn_01x04_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
     )
     (path "/4dcd2554-0c0c-4fca-b220-d2fb156d9cf9/ff64180e-b6ce-40be-a953-e6a02ff559dd"
-      (reference "L1") (unit 1) (value "22u") (footprint "Inductor_SMD:L_Vishay_IHLP-2020")
+      (reference "L1") (unit 1) (value "22u") (footprint "Inductor_SMD:L_Taiyo-Yuden_NR-30xx")
     )
     (path "/8c1d7bfe-a7ad-4b08-9e6d-dd7b239bc0ed/ff64180e-b6ce-40be-a953-e6a02ff559dd"
-      (reference "L2") (unit 1) (value "22u") (footprint "Inductor_SMD:L_Vishay_IHLP-2020")
+      (reference "L2") (unit 1) (value "22u") (footprint "Inductor_SMD:L_Taiyo-Yuden_NR-30xx")
     )
     (path "/95515899-f309-4706-b478-ef0c1d74de3d/764763fd-5dd9-4c52-a8c3-a0c0d2fc9a51"
       (reference "PS1") (unit 1) (value "TC2117-3.3VDBTR") (footprint "Package_TO_SOT_SMD:SOT-223")
