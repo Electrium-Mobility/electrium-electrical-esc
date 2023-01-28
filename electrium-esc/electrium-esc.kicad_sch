@@ -1736,7 +1736,7 @@
     (uuid 3c103bef-0efb-4142-b313-3083a43ce99d)
     (property "Reference" "D3" (id 0) (at 41.91 26.67 0))
     (property "Value" "1N5819" (id 1) (at 41.91 31.75 0))
-    (property "Footprint" "Diode_SMD:D_0603_1608Metric" (id 2) (at 45.72 24.765 0)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (id 2) (at 45.72 24.765 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf" (id 3) (at 45.72 29.21 0)
@@ -1989,7 +1989,7 @@
     (uuid 7c2a1523-547e-41f9-846d-b97ecea82980)
     (property "Reference" "D4" (id 0) (at 64.77 26.67 0))
     (property "Value" "1N5819" (id 1) (at 64.77 31.75 0))
-    (property "Footprint" "Diode_SMD:D_0603_1608Metric" (id 2) (at 68.58 24.765 0)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (id 2) (at 68.58 24.765 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf" (id 3) (at 68.58 29.21 0)
@@ -1997,22 +1997,6 @@
     )
     (pin "1" (uuid 01a66446-a726-46d8-aa76-2a6b6990afbb))
     (pin "2" (uuid b1e0f739-0cf7-45e1-a686-a069a415c8ab))
-  )
-
-  (symbol (lib_id "power:+5V") (at 66.04 157.48 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 7d8f4ff6-4c14-4fa6-8737-15c886f41213)
-    (property "Reference" "#PWR060" (id 0) (at 66.04 161.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (id 1) (at 66.04 152.4 0))
-    (property "Footprint" "" (id 2) (at 66.04 157.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 66.04 157.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 652717fd-0ef1-4d2d-979c-13a810942e5f))
   )
 
   (symbol (lib_id "power:+3.3V") (at 76.2 29.21 270) (unit 1)
@@ -2394,6 +2378,22 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 18ef9af1-771c-4bb5-8108-16aa9f160ed8))
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 66.04 157.48 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid ee491e58-2553-4a50-822a-da4997d54c81)
+    (property "Reference" "#PWR0101" (id 0) (at 66.04 161.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (id 1) (at 64.77 153.67 0))
+    (property "Footprint" "" (id 2) (at 66.04 157.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 66.04 157.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 995e6998-01ea-4526-9455-0f7edbc1df98))
   )
 
   (symbol (lib_id "Device:R") (at 71.12 161.29 270) (unit 1)
@@ -3327,9 +3327,6 @@
     (path "/37fcc99a-734b-43a0-8549-7d691c719b18"
       (reference "#PWR059") (unit 1) (value "GND") (footprint "")
     )
-    (path "/7d8f4ff6-4c14-4fa6-8737-15c886f41213"
-      (reference "#PWR060") (unit 1) (value "+5V") (footprint "")
-    )
     (path "/cf7d19f3-5b44-44d1-aa39-e4fe47b8eb5b"
       (reference "#PWR061") (unit 1) (value "+3.3V") (footprint "")
     )
@@ -3371,6 +3368,9 @@
     )
     (path "/7edd22c2-7370-48d7-af32-c9d630dfd47e"
       (reference "#PWR078") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/ee491e58-2553-4a50-822a-da4997d54c81"
+      (reference "#PWR0101") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/95515899-f309-4706-b478-ef0c1d74de3d/6e926fcb-bc57-4a6a-ac9a-7920661fd921"
       (reference "C1") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -3601,16 +3601,16 @@
       (reference "C79") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/4dcd2554-0c0c-4fca-b220-d2fb156d9cf9/2194da5e-abcb-490c-ad12-09330a88057c"
-      (reference "D1") (unit 1) (value "1N5819") (footprint "Diode_SMD:D_0603_1608Metric")
+      (reference "D1") (unit 1) (value "1N5819") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/8c1d7bfe-a7ad-4b08-9e6d-dd7b239bc0ed/2194da5e-abcb-490c-ad12-09330a88057c"
-      (reference "D2") (unit 1) (value "1N5819") (footprint "Diode_SMD:D_0603_1608Metric")
+      (reference "D2") (unit 1) (value "1N5819") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/3c103bef-0efb-4142-b313-3083a43ce99d"
-      (reference "D3") (unit 1) (value "1N5819") (footprint "Diode_SMD:D_0603_1608Metric")
+      (reference "D3") (unit 1) (value "1N5819") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/7c2a1523-547e-41f9-846d-b97ecea82980"
-      (reference "D4") (unit 1) (value "1N5819") (footprint "Diode_SMD:D_0603_1608Metric")
+      (reference "D4") (unit 1) (value "1N5819") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/5098eb75-ab3f-49e8-b692-4372bb393d18"
       (reference "D5") (unit 1) (value "LED") (footprint "Diode_SMD:D_0201_0603Metric")

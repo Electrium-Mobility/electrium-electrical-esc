@@ -1830,7 +1830,7 @@
     (property "Value" "1N5819" (id 1) (at 182.88 87.3124 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Diode_SMD:D_0603_1608Metric" (id 2) (at 175.895 86.36 0)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (id 2) (at 175.895 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf" (id 3) (at 180.34 86.36 0)
