@@ -1800,7 +1800,7 @@
     (property "Value" "LED" (id 1) (at 43.18 185.7374 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Diode_SMD:D_0603_1608Metric" (id 2) (at 39.37 182.88 0)
+    (property "Footprint" "Diode_SMD:D_0402_1005Metric" (id 2) (at 39.37 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 39.37 182.88 0)
@@ -3667,7 +3667,7 @@
       (reference "D4") (unit 1) (value "1N5819") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/5098eb75-ab3f-49e8-b692-4372bb393d18"
-      (reference "D5") (unit 1) (value "LED") (footprint "Diode_SMD:D_0603_1608Metric")
+      (reference "D5") (unit 1) (value "LED") (footprint "Diode_SMD:D_0402_1005Metric")
     )
     (path "/7f26220b-cbe5-4e56-a50a-18cee9866600"
       (reference "D6") (unit 1) (value "LED") (footprint "Diode_SMD:D_0402_1005Metric")
